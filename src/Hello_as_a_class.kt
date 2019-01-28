@@ -6,9 +6,13 @@ class App {
         @JvmStatic fun main(args: Array<String>) {
             println("Hello World")
             println(sum(1,20))
+            println(laban)
+
         }
     }
 }
+var laban: Int = Test_average(100,60,90)
+
 
 //using a function in kotlin
 fun sum(a:Int,b:Int):Int{
