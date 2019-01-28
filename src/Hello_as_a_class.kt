@@ -7,7 +7,7 @@ class App {
             println("Hello World")
             println(sum(1,20))
             println(laban)
-
+           
         }
     }
 }
@@ -22,3 +22,7 @@ fun sum(a:Int,b:Int):Int{
 fun Test_average(Math:Int,Kis:Int,Eng:Int):Int{
     return (Math+Kis+Eng)/3
 }
+var x:Int = 5 // `Int` type is inferred
+
+
+
